@@ -11,7 +11,7 @@ Terms deemed relevant for the implemented aspects of the kata. Other extracted t
 | Guest | n/a | Person who views & reserves a stay at the selected venue & room | Can venue be booked on someone else' behalf? Is venue & room most appropriate terms? |
 | Venue | n/a | Venue available for reservation | |
 | Room | n/a | Place reserved and stayed in by the guest at specific venue (high-end resorts and spas current focus) | Is this the best term? Are/will multi-room options be available? |
-| Room status | n/a | booked/available/ready to clean/etc/when room will be needed next | |
+| Room status | n/a | booked/available/~~ready to clean/~~etc/when room will be needed next | |
 | | n/a | | |
 
 ## Omitted
@@ -23,3 +23,4 @@ Terms deemed relevant for the implemented aspects of the kata. Other extracted t
 | Cleaning & maintenance staff | n/a | | |
 | Cleaning cart | n/a | Cart containing cleaning supplies and fresh sheets | |
 | Cleaning staff directions device | n/a | Proprietary devices attached to cleaning carts, indicating which room to clean next | |
+| Room status | n/a | ready to clean/etc/when room will be needed next | relates to priority? |
