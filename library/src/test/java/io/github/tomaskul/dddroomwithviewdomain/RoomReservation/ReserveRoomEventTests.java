@@ -56,14 +56,4 @@ class ReserveRoomEventTests {
         assertThatThrownBy(() -> { new ReserveRoomEvent(1, RoomType.Unknown, validReservationPeriod); })
                 .hasMessage("Invalid room type");
     }
-
-    @Test
-    void Can_reserve_as_unregistered(){
-
-    }
-
-    @Test
-    void Can_reserve_as_registered(){
-
-    }
 }

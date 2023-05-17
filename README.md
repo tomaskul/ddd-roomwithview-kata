@@ -25,6 +25,26 @@ Terms deemed relevant for the implemented aspects of the kata. Other extracted t
 | Cleaning staff directions device | n/a | Proprietary devices attached to cleaning carts, indicating which room to clean next | |
 | Room status | n/a | ready to clean/etc/when room will be needed next | relates to priority? |
 
+# Domain Events
+1. ~~Viewing~~ (Viewing isn't part of Command stack)
+   1. ~~all venues~~
+   1. ~~view specific venue~~
+   1. ~~view specific room at a specific venue~~
+   1. ~~view venues with availability by date~~
+   1. ~~view venues with availability by room type~~
+1. RegistrationCompleted (handled by 'existing reservations service')  
+1. Reservation (all require venue choice and reservation period) (precursor: RegistrationCompleted)
+   1. By specific room choice
+   1. By room type choice
+   1. 
+1. PaymentProcessed (handled by 'existing reservations service') (precursor: Reservation)
+1. PaymentDenied (handled by 'existing reservations service') (precursor: Reservation)
+1. Reservation confirmation (precursor: Reservation & PaymentProcessed)
+1. Reservation cancellation (precursor: Reservation): Can be cancelled by guest, venue, the booking system, expiration
+1. Get next availability of a room (may be ignored for this implementation)
+   1. For specific room at a venue
+   1. For room type at a venue
+
 # Getting started
 At root repository/project directory run:
 ```bash
