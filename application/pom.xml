@@ -18,8 +18,8 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>library</artifactId>
+			<groupId>io.github.tomaskul</groupId>
+			<artifactId>ddd-roomwithview-domain</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

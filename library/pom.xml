@@ -8,10 +8,10 @@
 		<version>3.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>multi-module-library-initial</artifactId>
+	<groupId>io.github.tomaskul</groupId>
+	<artifactId>ddd-roomwithview-domain</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>multi-module-library-initial</name>
+	<name>roomwithview-domain-library</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
