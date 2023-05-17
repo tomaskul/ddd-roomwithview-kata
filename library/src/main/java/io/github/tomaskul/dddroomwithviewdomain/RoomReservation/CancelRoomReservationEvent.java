@@ -1,4 +1,4 @@
-package io.github.tomaskul.dddroomwithviewdomain.ReservationCancellation;
+package io.github.tomaskul.dddroomwithviewdomain.RoomReservation;
 
 import io.github.tomaskul.dddroomwithviewdomain.Common.DomainEvent;
 

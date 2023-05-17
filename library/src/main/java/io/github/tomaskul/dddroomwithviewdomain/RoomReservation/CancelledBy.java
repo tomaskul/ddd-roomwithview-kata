@@ -1,4 +1,4 @@
-package io.github.tomaskul.dddroomwithviewdomain.ReservationCancellation;
+package io.github.tomaskul.dddroomwithviewdomain.RoomReservation;
 
 public enum CancelledBy {
     GUEST,
