@@ -6,4 +6,9 @@ import java.util.List;
 
 public class RoomEntity extends DomainEntity<Long> {
     public List<RoomFeature> Features;
+
+    public RoomEntity(Long id, List<RoomFeature> features) {
+        Id = id;
+        Features = features;
+    }
 }
