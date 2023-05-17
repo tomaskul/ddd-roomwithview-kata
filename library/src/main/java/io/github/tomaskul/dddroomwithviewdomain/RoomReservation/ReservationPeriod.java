@@ -1,6 +1,6 @@
 package io.github.tomaskul.dddroomwithviewdomain.RoomReservation;
 
-import io.github.tomaskul.dddroomwithviewdomain.ValueObject;
+import io.github.tomaskul.dddroomwithviewdomain.Common.ValueObject;
 
 import java.time.LocalDateTime;
 

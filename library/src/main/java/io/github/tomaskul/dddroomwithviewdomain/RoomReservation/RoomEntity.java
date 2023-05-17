@@ -1,6 +1,6 @@
 package io.github.tomaskul.dddroomwithviewdomain.RoomReservation;
 
-import io.github.tomaskul.dddroomwithviewdomain.DomainEntity;
+import io.github.tomaskul.dddroomwithviewdomain.Common.DomainEntity;
 
 import java.util.List;
 

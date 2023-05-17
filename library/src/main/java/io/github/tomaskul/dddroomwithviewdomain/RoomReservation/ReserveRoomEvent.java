@@ -1,6 +1,6 @@
 package io.github.tomaskul.dddroomwithviewdomain.RoomReservation;
 
-import io.github.tomaskul.dddroomwithviewdomain.DomainEvent;
+import io.github.tomaskul.dddroomwithviewdomain.Common.DomainEvent;
 
 public class ReserveRoomEvent extends DomainEvent {
 
