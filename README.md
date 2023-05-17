@@ -32,14 +32,14 @@ Terms deemed relevant for the implemented aspects of the kata. Other extracted t
    1. ~~view specific room at a specific venue~~
    1. ~~view venues with availability by date~~
    1. ~~view venues with availability by room type~~
-1. RegistrationCompleted (handled by 'existing reservations service')  
-1. Reservation (all require venue choice and reservation period) (precursor: RegistrationCompleted)
+1. GuestRegistrationCompleted (handled by 'existing reservations service')  
+1. Reservation (all require venue choice and reservation period) (precursor: GuestRegistrationCompleted)
    1. By specific room choice
    1. By room type choice
    1. 
-1. PaymentProcessed (handled by 'existing reservations service') (precursor: Reservation)
-1. PaymentDenied (handled by 'existing reservations service') (precursor: Reservation)
-1. Reservation confirmation (precursor: Reservation & PaymentProcessed)
+1. ReservationPaymentProcessed (handled by 'existing reservations service') (precursor: Reservation)
+1. ReservationPaymentFailed (handled by 'existing reservations service') (precursor: Reservation)
+1. Reservation confirmation (precursor: Reservation & ReservationPaymentProcessed)
 1. Reservation cancellation (precursor: Reservation): Can be cancelled by guest, venue, the booking system, expiration
 1. Get next availability of a room (may be ignored for this implementation)
    1. For specific room at a venue
