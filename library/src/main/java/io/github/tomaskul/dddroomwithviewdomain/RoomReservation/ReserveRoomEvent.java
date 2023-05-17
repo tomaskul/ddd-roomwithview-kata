@@ -16,7 +16,7 @@ public class ReserveRoomEvent extends DomainEvent {
         VenueId = venueId;
         Period = period;
 
-        RoomType = RoomType.Unknown;
+        RoomType = RoomType.UNKNOWN;
     }
 
     public ReserveRoomEvent(long venueId, long roomId, ReservationPeriod period) {
@@ -32,7 +32,7 @@ public class ReserveRoomEvent extends DomainEvent {
     public ReserveRoomEvent(long venueId, RoomType type, ReservationPeriod period) {
         this(venueId, period);
 
-        if (type == RoomType.Unknown) throw new IllegalArgumentException("Invalid room type");
+        if (type == RoomType.UNKNOWN) throw new IllegalArgumentException("Invalid room type");
 
         RoomType = type;
     }
