@@ -24,3 +24,9 @@ Terms deemed relevant for the implemented aspects of the kata. Other extracted t
 | Cleaning cart | n/a | Cart containing cleaning supplies and fresh sheets | |
 | Cleaning staff directions device | n/a | Proprietary devices attached to cleaning carts, indicating which room to clean next | |
 | Room status | n/a | ready to clean/etc/when room will be needed next | relates to priority? |
+
+# Getting started
+At root repository/project directory run:
+```bash
+./mvnw install && ./mvnw spring-boot:run -pl application
+```
